@@ -10,12 +10,103 @@
     "referencedForms": [],
     "pages": [
         {
-            "label": "Examen des systemes",
+            "label": "General set",
             "sections": [
                 {
                     "isExpanded": "true",
-                    "label": "Examen des systemes",
-                    "questions": []
+                    "label": "General",
+                    "questions": [
+                        {
+                            "id": "general",
+                            "questionOptions": {
+                                "rendering": "multiCheckbox",
+                                "concept": "b36c49f1-eaf1-4311-a2d4-0e7edf4e0785",
+                                "answers": [
+                                    {
+                                        "concept": "08cdef8d-0ebc-42de-b873-f2c866c7cd84"
+                                    },
+                                    {
+                                        "concept": "2da94dbe-ed9e-4323-878b-bac19ba357d8"
+                                    },
+                                    {
+                                        "concept": "9654728d-f24d-4f17-b170-6ae2391a3e1c"
+                                    },
+                                    {
+                                        "concept": "901c5e5c-f95d-4b6c-b948-81c4859c2a43"
+                                    },
+                                    {
+                                        "concept": "a351fd47-3adf-440a-aec2-8a4a89086880"
+                                    }
+                                ]
+                            },
+                            "type": "obs",
+                            "validators": []
+                        },
+                        {
+                            "id": "otherGeneralObservations",
+                            "hide": {
+                                "hideWhenExpression": "isEmpty(general) || general !== '08cdef8d-0ebc-42de-b873-f2c866c7cd84'|| general !== '2da94dbe-ed9e-4323-878b-bac19ba357d8'|| general !== '9654728d-f24d-4f17-b170-6ae2391a3e1c'|| general !== '901c5e5c-f95d-4b6c-b948-81c4859c2a43'|| general !== 'a351fd47-3adf-440a-aec2-8a4a89086880'"
+                            },
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "e572966c-3972-44b0-920d-68a0a584e111"
+                            },
+                            "type": "obs",
+                            "validators": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Skin set",
+            "sections": [
+                {
+                    "isExpanded": "true",
+                    "label": "Skin",
+                    "questions": [
+                        {
+                            "id": "skin",
+                            "questionOptions": {
+                                "rendering": "multiCheckbox",
+                                "concept": "2369e6b8-801e-441a-89c4-629c3aa15474",
+                                "answers": [
+                                    {
+                                        "concept": "e58a6594-9f52-42ed-9be3-d661ce4c1852"
+                                    },
+                                    {
+                                        "concept": "890fb90d-36fc-4ef5-af05-03059a6e13b7"
+                                    },
+                                    {
+                                        "concept": "19521755-e2f3-4add-8805-b75455b6ed92"
+                                    },
+                                    {
+                                        "concept": "c73292f6-9e96-4d09-b32c-90aeb5300730"
+                                    },
+                                    {
+                                        "concept": "1b7c71b6-50a1-43bc-a927-50e7d5253864"
+                                    },
+                                    {
+                                        "concept": "a351fd47-3adf-440a-aec2-8a4a89086880"
+                                    }
+                                ]
+                            },
+                            "type": "obs",
+                            "validators": []
+                        },
+                        {
+                            "id": "otherSkinObservations",
+                            "hide": {
+                                "hideWhenExpression": "isEmpty(general) || general !== 'e58a6594-9f52-42ed-9be3-d661ce4c1852'|| general !== '890fb90d-36fc-4ef5-af05-03059a6e13b7'|| general !== '19521755-e2f3-4add-8805-b75455b6ed92'|| general !== 'c73292f6-9e96-4d09-b32c-90aeb5300730'|| general !== '08cdef8d-0ebc-42de-b873-f2c866c7cd84' || general !== '1b7c71b6-50a1-43bc-a927-50e7d5253864'"
+                            },
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "81037400-b0e9-42f8-b27e-35380cdbd4aa"
+                            },
+                            "type": "obs",
+                            "validators": []
+                        }
+                    ]
                 }
             ]
         }
