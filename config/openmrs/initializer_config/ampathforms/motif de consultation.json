@@ -15,7 +15,84 @@
                 {
                     "isExpanded": "true",
                     "label": "Motif de consultation",
-                    "questions": []
+                    "questions": [
+                        {
+                            "id": "motifDeConsultation",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "0a061333-1611-45b3-8096-f7c339b4fdfc",
+                                "answers": [
+                                    {
+                                        "concept": "abf97b7e-b39a-4288-9ca0-b0dcbe6919fc"
+                                    },
+                                    {
+                                        "concept": "2d03065b-5c7f-49ea-a53f-a9de1524b72a"
+                                    },
+                                    {
+                                        "concept": "7caaacd4-7ccf-4684-a035-cbd002be2ecc"
+                                    },
+                                    {
+                                        "concept": "fbcffda1-5581-4eaf-97c2-bf73e297308b"
+                                    },
+                                    {
+                                        "concept": "1605c4d4-3567-487c-b369-615f951d6936"
+                                    }
+                                ]
+                            },
+                            "type": "obs",
+                            "validators": []
+                        },
+                        {
+                            "id": "details",
+                            "hide": {
+                                "hideWhenExpression": "isEmpty(motifDeConsultation) || motifDeConsultation !== 'abf97b7e-b39a-4288-9ca0-b0dcbe6919fc'|| motifDeConsultation !== '2d03065b-5c7f-49ea-a53f-a9de1524b72a'|| motifDeConsultation !== '7caaacd4-7ccf-4684-a035-cbd002be2ecc'|| motifDeConsultation !== 'fbcffda1-5581-4eaf-97c2-bf73e297308b'|| motifDeConsultation !== '1605c4d4-3567-487c-b369-615f951d6936'"
+                            },
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "4a44bb3e-621c-4942-ac86-7e0f7539986d"
+                            },
+                            "type": "obs",
+                            "validators": []
+                        },
+                        {
+                            "id": "duration",
+                            "questionOptions": {
+                                "rendering": "number",
+                                "concept": "d178d5cf-52c3-4722-bb12-5861daa2815c",
+                                "max": "1000",
+                                "min": "0",
+                                "showDate": "false"
+                            },
+                            "type": "obs",
+                            "validators": []
+                        },
+                        {
+                            "id": "timeUnits",
+                            "questionOptions": {
+                                "rendering": "radio",
+                                "concept": "d6593e37-b7a8-482b-856f-6f6a8db25508",
+                                "answers": [
+                                    {
+                                        "concept": "1822AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                                    },
+                                    {
+                                        "concept": "1072AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                                    },
+                                    {
+                                        "concept": "1073AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                                    },
+                                    {
+                                        "concept": "1074AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                                    },
+                                    {
+                                        "concept": "1734AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                                    }
+                                ]
+                            },
+                            "type": "obs",
+                            "validators": []
+                        }
+                    ]
                 }
             ]
         }
