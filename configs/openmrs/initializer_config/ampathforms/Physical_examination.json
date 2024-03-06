@@ -26,16 +26,13 @@
                                         "concept": "08cdef8d-0ebc-42de-b873-f2c866c7cd84"
                                     },
                                     {
-                                        "concept": "2da94dbe-ed9e-4323-878b-bac19ba357d8"
-                                    },
-                                    {
                                         "concept": "9654728d-f24d-4f17-b170-6ae2391a3e1c"
                                     },
                                     {
                                         "concept": "901c5e5c-f95d-4b6c-b948-81c4859c2a43"
                                     },
                                     {
-                                        "concept": "a351fd47-3adf-440a-aec2-8a4a89086880"
+                                        "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                                     }
                                 ]
                             },
@@ -45,7 +42,7 @@
                         {
                             "id": "otherGeneralObservations",
                             "hide": {
-                                "hideWhenExpression": "isEmpty(general) || general !== '08cdef8d-0ebc-42de-b873-f2c866c7cd84'|| general !== '2da94dbe-ed9e-4323-878b-bac19ba357d8'|| general !== '9654728d-f24d-4f17-b170-6ae2391a3e1c'|| general !== '901c5e5c-f95d-4b6c-b948-81c4859c2a43'|| general !== 'a351fd47-3adf-440a-aec2-8a4a89086880'"
+                                "hideWhenExpression": "arrayContains(['08cdef8d-0ebc-42de-b873-f2c866c7cd84', '9654728d-f24d-4f17-b170-6ae2391a3e1c', '901c5e5c-f95d-4b6c-b948-81c4859c2a43', ''], general)"
                             },
                             "questionOptions": {
                                 "rendering": "text",
@@ -87,7 +84,7 @@
                                         "concept": "1b7c71b6-50a1-43bc-a927-50e7d5253864"
                                     },
                                     {
-                                        "concept": "a351fd47-3adf-440a-aec2-8a4a89086880"
+                                        "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                                     }
                                 ]
                             },
@@ -97,7 +94,7 @@
                         {
                             "id": "otherSkinObservations",
                             "hide": {
-                                "hideWhenExpression": "isEmpty(general) || general !== 'e58a6594-9f52-42ed-9be3-d661ce4c1852'|| general !== '890fb90d-36fc-4ef5-af05-03059a6e13b7'|| general !== '19521755-e2f3-4add-8805-b75455b6ed92'|| general !== 'c73292f6-9e96-4d09-b32c-90aeb5300730'|| general !== '08cdef8d-0ebc-42de-b873-f2c866c7cd84' || general !== '1b7c71b6-50a1-43bc-a927-50e7d5253864'"
+                                "hideWhenExpression": "arrayContains(['e58a6594-9f52-42ed-9be3-d661ce4c1852', '890fb90d-36fc-4ef5-af05-03059a6e13b7', '19521755-e2f3-4add-8805-b75455b6ed92', 'c73292f6-9e96-4d09-b32c-90aeb5300730', '1b7c71b6-50a1-43bc-a927-50e7d5253864', ''], skin)"
                             },
                             "questionOptions": {
                                 "rendering": "text",

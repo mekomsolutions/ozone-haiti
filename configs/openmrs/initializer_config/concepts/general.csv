@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Mappings|SAME-AS,Mappings|NARROWER-THAN,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Answers,Members,_version:1,_order:1350
+Uuid,Void/Retire,Mappings|SAME-AS,Mappings|NARROWER-THAN,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Answers,Members,_version:1,_order:500
 1822AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,,Hours,Hours,Hours,Hours,,,Misc,N/A,,,,
 1072AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,,Days,Days,Days,Days,,,Misc,N/A,,,,
 1073AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,,Weeks,Weeks,Weeks,Weeks,,,Misc,N/A,,,,
@@ -17,13 +17,13 @@ fbcffda1-5581-4eaf-97c2-bf73e297308b,,,,Uterine Contractions,Uterine Contraction
 2da94dbe-ed9e-4323-878b-bac19ba357d8,,,,Fever,Fever,Fever,Fever,,,Misc,N/A,,,,
 9654728d-f24d-4f17-b170-6ae2391a3e1c,,,,Fatigue (R53),Fatigue (R53),Fatigue (R53),Fatigue (R53),,,Misc,N/A,,,,
 901c5e5c-f95d-4b6c-b948-81c4859c2a43,,,,Night sweats (R61.1),Night sweats (R61.1),Night sweats (R61.1),Night sweats (R61.1),,,Misc,N/A,,,,
-a351fd47-3adf-440a-aec2-8a4a89086880,,,,Other,Other,Other,Other,,,Misc,N/A,,,,
-e572966c-3972-44b0-920d-68a0a584e111,,,,Other General Observations,Other General Observations,Other General Observations,Other General Observations,,,Misc,Text,,,,
+5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,,Other,Other,Other,Other,,,Misc,N/A,,,,
 b36c49f1-eaf1-4311-a2d4-0e7edf4e0785,,,,General,General,General,General,,,Question,Coded,Loss of Appetite;Fever;Fatigue (R53);Night sweats (R61.1);Other,,,
+e572966c-3972-44b0-920d-68a0a584e111,,,,Other General Observations,Other General Observations,Other General Observations,Other General Observations,,,Misc,Text,,,,
 e58a6594-9f52-42ed-9be3-d661ce4c1852,,,,Rashes,Rashes,Rashes,Rashes,,,Misc,N/A,,,,
 890fb90d-36fc-4ef5-af05-03059a6e13b7,,,,Dermatological pruritus,Dermatological pruritus,Dermatological pruritus,Dermatological pruritus,,,Misc,N/A,,,,
 19521755-e2f3-4add-8805-b75455b6ed92,,,,Discolorations,Discolorations,Discolorations,Discolorations,,,Misc,N/A,,,,
 c73292f6-9e96-4d09-b32c-90aeb5300730,,,,Lesions,Lesions,Lesions,Lesions,,,Misc,N/A,,,,
 1b7c71b6-50a1-43bc-a927-50e7d5253864,,,,Tattoo,Tattoo,Tattoo,Tattoo,,,Misc,N/A,,,,
-81037400-b0e9-42f8-b27e-35380cdbd4aa,,,,Other Skin Observations,Other Skin Observations,Other Skin Observations,Other Skin Observations,,,Misc,Text,,,,
 2369e6b8-801e-441a-89c4-629c3aa15474,,,,Skin,Skin,Skin,Skin,,,Question,Coded,Rashes;Dermatological pruritus;Discolorations;Lesions;Tattoo;Other,,,
+81037400-b0e9-42f8-b27e-35380cdbd4aa,,,,Other Skin Observations,Other Skin Observations,Other Skin Observations,Other Skin Observations,,,Misc,Text,,,,

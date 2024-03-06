@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -22,6 +23,58 @@
     <!-- TODO: Add any implementation-specific dependencies -->
   </dependencies>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <!-- Exclude files from Ozone -->
+            <id>Exclude unneeded Ozone files</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.build.directory}/ozone</directory>
+                  <excludes>
+                    <!-- Effectively disable inherited exclusions -->
+                    <exclude>non-existing_file</exclude>
+                  </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.gmavenplus</groupId>
+        <artifactId>gmavenplus-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>Rebuild OpenMRS Frontend if necessary</id>
+            <goals>
+              <goal>execute</goal>
+            </goals>
+             <!-- Disable this inherited execution -->
+            <phase>none</phase>
+            <configuration>
+              <scripts>
+                <script>file://${project.build.directory}/openmrs/frontend_assembly/build-openmrs-frontend.groovy</script>
+              </scripts>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
   <profiles>
     <profile>
       <id>validator</id>
@@ -46,7 +99,8 @@
                   <goal>validate-configurations</goal>
                 </goals>
                 <configuration>
-                  <sourceDir>${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config</sourceDir>
+                  <sourceDir>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config</sourceDir>
                 </configuration>
               </execution>
             </executions>
