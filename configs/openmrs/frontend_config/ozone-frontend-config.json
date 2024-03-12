@@ -1,0 +1,84 @@
+{
+  "@openmrs/esm-primary-navigation-app": {
+    "externalRefLinks": [
+      {
+        "title": "Pharmacy, Billing & Inventory",
+        "redirect": "${ODOO_PUBLIC_URL}"
+      },
+      {
+        "title": "Laboratory",
+        "redirect": "${SENAITE_PUBLIC_URL}"
+      },
+      {
+        "title": "Reporting & Analytics",
+        "redirect": "${SUPERSET_PUBLIC_URL}"
+      }
+    ],
+    "logo": {
+      "src": "ozone/ozone_logo_white.svg",
+      "alt": "ozone-logo"
+    }
+  },
+  "@openmrs/esm-login-app": {
+    "logo": {
+      "src": "ozone/ozone_logo_color.svg",
+      "alt": "ozone-logo"
+    }
+  },
+  "@openmrs/esm-patient-chart-app": {
+    "logo": {
+      "src": "ozone/ozone_logo_white.svg",
+      "alt": "ozone-logo"
+    },
+    "Display conditions": {
+      "privileges": [
+        "View Patient Summary"
+      ]
+    },
+    "extensionSlots": {
+      "patient-chart-summary-dashboard-slot": {
+        "add": [
+          "obs-by-encounter-widget#consultation"
+        ],
+        "order": [
+          "obs-by-encounter-widget#consultation"
+        ],
+        "configure": {
+          "obs-by-encounter-widget#consultation": {
+            "title": "Motif de consultation",
+            "showGraphByDefault": true,
+            "encounterTypes": [
+              "f9fdbe63-12b4-479f-b8fd-dcbfde6aa944"
+            ],
+            "Display conditions": {
+              "privileges": [
+                "Add Users"
+              ]
+            },
+            "data": [
+              {
+                "label": "Motif de consultation",
+                "concept": "0a061333-1611-45b3-8096-f7c339b4fdfc",
+                "color": "blue"
+              },
+              {
+                "label": "Duration",
+                "concept": "d178d5cf-52c3-4722-bb12-5861daa2815c",
+                "color": "green"
+              },
+              {
+                "label": "Time Units",
+                "concept": "d6593e37-b7a8-482b-856f-6f6a8db25508",
+                "color": "green"
+              }
+            ],
+            "table": {
+              "pageSize": 6
+            }
+          }
+        }
+      }
+    },
+    "disableChangingVisitLocation": true
+  }
+}
