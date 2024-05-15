@@ -1,4 +1,4 @@
-#  Ozone Ozone Haiti - Implementer Guide
+#  Ozone Haiti - Implementer Guide
 
 This distribution can be run using the [Ozone Docker Compose](https://github.com/ozone-his/ozone-docker-compose) project, which is the default configuration for this. The quick start command below is for demonstration and trial purposes and would not be suitable for a stable environment.
 
@@ -11,7 +11,7 @@ Build
 Run
 ```bash
 source target/go-to-scripts-dir.sh
-./start-demo.sh
+./start-ozone.sh
 ```
 
 
