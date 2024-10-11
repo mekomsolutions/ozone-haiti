@@ -59,7 +59,7 @@ b1eee37f-bf5a-4608-a108-7c603a3ec94e,,,Endocrine,Endocrinien,Endocrine,Endocrini
 adf2279f-c34f-4db6-a8e1-21f0486ca490,,,Endocrine Set,Groupe endocrinien,Endocrine Set,Groupe endocrinien,,,ConvSet,N/A,,,Endocrinien;Autres observations,,,,,,,,
 5ebdd207-22e6-4bbd-bda1-940bb6ecf2e1,,,Joint Pain,Douleur Articulaire,Joint Pain,Douleur Articulaire,,,Misc,N/A,,,,,,,,,,,
 9a611f07-07f5-4aaf-b1b0-cfcf42b53d66,,,Joint Deformity,Déformation articulaire,Joint Deformity,Déformation articulaire,,,Misc,N/A,,,,,,,,,,,
-bed907b6-56f8-4bd5-8961-01a18e0cbfe2,,,Musculoskeletal,Musculo-squelettique,Musculoskeletal,Musculo-squelettique,,,Misc,Coded,,Douleur Articulaire;Gonflement des articulations;Myalgie;Raideur articulaire;Déformation articulaire;Autre,,,,,,,,,
+bed907b6-56f8-4bd5-8961-01a18e0cbfe2,,,Musculoskeletal,Musculo-squelettique,Musculoskeletal,Musculo-squelettique,,,Misc,Coded,,Douleur Articulaire;Gonflement des articulations;Myalgie;Raideur articulaire (M25.6);Déformation articulaire;Autre,,,,,,,,,
 b43a3268-4f2f-4eb8-83e8-2ed9e07ad107,,,Body Part,Partie du corps,Body Part,Partie du corps,,,Misc,Text,,,,,,,,,,,
 c37bb128-d23e-41f0-b7b6-6186b98637ac,,,Musculoskeletal Set,Groupe musculo-squelettique  ,Musculoskeletal Set,Groupe musculo-squelettique  ,,,ConvSet,N/A,,,Musculo-squelettique;Partie du corps;Autres observations,,,,,,,,
 2fe1f75c-61bc-4573-88ca-3d1b18daf9ec,,,Bruises,Écchymoses,Bruises,Écchymoses,,,Misc,N/A,,,,,,,,,,,
