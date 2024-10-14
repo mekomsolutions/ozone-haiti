@@ -59,8 +59,31 @@
                 <resource>
                   <directory>${project.build.directory}/ozone</directory>
                   <excludes>
-                    <!-- Effectively disable inherited exclusions -->
-                    <exclude>non-existing_file</exclude>
+                    <exclude>distro/configs/**/address*/*demo.*</exclude>
+                    <exclude>distro/configs/**/concepts/*demo.csv</exclude>
+                    <exclude>distro/configs/**/concepts/visittypes-core_data.csv</exclude>
+                    <exclude>distro/configs/**/program*</exclude>
+                    <exclude>distro/configs/**/ampathforms/*core_demo.json</exclude>
+                    <exclude>distro/configs/**/ampathforms/stuctured_soap_note.json</exclude>
+                    <exclude>distro/configs/**/ampath_poc_adult_return_visit_form_v1.6_core-demo.json</exclude>
+                    <exclude>distro/configs/**/ampathformstranslations/</exclude>
+                    <exclude>distro/configs/**/appointment*/</exclude>
+                    <exclude>distro/configs/**/attributetypes/</exclude>
+                    <exclude>distro/configs/**/globalproperties/*demo.xml</exclude>
+                    <exclude>distro/configs/**/drugs/drugs-core_demo.csv</exclude>
+                    <exclude>distro/configs/**/locations/locations-core_demo.csv</exclude>
+                    <exclude>distro/configs/**/patientidentifiertypes/</exclude>
+                    <exclude>distro/configs/**/personattributetypes/</exclude>
+                    <exclude>distro/configs/**/visittypes*</exclude>
+                    <exclude>distro/configs/**/ozone_logo_color.svg</exclude>
+                    <exclude>distro/configs/**/ozone_logo_white.svg</exclude>
+                    <exclude>distro/configs/**/Consultation.json</exclude>                    
+                    <exclude>distro/configs/**/Physical_examination.json</exclude>
+                    <exclude>distro/configs/**/encountertypes_core-demo.csv</exclude>
+                    <exclude>distro/configs/**/misc-core_data.csv/</exclude>
+                    <exclude>distro/configs/**/ocl/openmrs_BasicLabTests*</exclude>
+                    <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
+                    <exclude>distro/configs/**/queues/*</exclude>
                   </excludes>
                 </resource>
               </resources>
@@ -133,34 +156,54 @@
   <profiles>
     <profile>
       <id>validator</id>
-      <activation>
+      <!-- <activation>
         <jdk>1.8</jdk>
         <property>
           <name>env.CI</name>
           <value>true</value>
         </property>
-      </activation>
+      </activation> -->
       <build>
         <plugins>
+          <!-- copy over merged/packaged OpenMRS config for validation at the integration-test phase -->
+          <plugin>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>Copy OpenMRS Initializer configs for validation</id>
+                <phase>pre-integration-test</phase>
+                <configuration>
+                  <target>
+                    <copy todir="${project.build.directory}/validator/configuration">
+                      <fileset
+                        dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config" />
+                    </copy>
+                  </target>
+                </configuration>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
           <!-- hooking the OpenMRS config validation to the integration-test phase -->
           <plugin>
             <groupId>org.openmrs.maven.plugins</groupId>
             <artifactId>openmrs-packager-maven-plugin</artifactId>
             <executions>
               <execution>
-                <id>Validate OpenMRS configuration</id>
+                <id>Validate OpenMRS Initializer configs</id>
                 <phase>integration-test</phase>
                 <goals>
                   <goal>validate-configurations</goal>
                 </goals>
                 <configuration>
                   <sourceDir>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config</sourceDir>
+                    ${project.build.directory}/validator/configuration</sourceDir>
                 </configuration>
               </execution>
             </executions>
           </plugin>
-
         </plugins>
       </build>
     </profile>
