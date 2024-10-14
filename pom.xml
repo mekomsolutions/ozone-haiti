@@ -19,6 +19,7 @@
     <maven.compiler.target>8</maven.compiler.target>
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
+    <openmrsERPVersion>2.1.0-SNAPSHOT</openmrsERPVersion>
   </properties>
 
   <dependencies>
@@ -34,7 +35,11 @@
       <type>zip</type>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>erp-omod</artifactId>
+      <version>${openmrsERPVersion}</version>
+    </dependency>
     <!-- TODO: Add any implementation-specific dependencies -->
   </dependencies>
 
@@ -85,6 +90,29 @@
                     <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/*</exclude>
                   </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy over the Docker Compose override file -->
+            <id>Copy docker-compose-override.yml</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/scripts</directory>
+                  <includes>
+                    <include>docker-compose-override.yml</include>
+                  </includes>
+                  <filtering>true</filtering>
                 </resource>
               </resources>
             </configuration>
