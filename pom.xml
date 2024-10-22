@@ -89,6 +89,8 @@
                     <exclude>distro/configs/**/ocl/openmrs_BasicLabTests*</exclude>
                     <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/*</exclude>
+                    <!-- Exlude Ozone's Odoo Initializer configs -->
+                    <exclude>distro/configs/odoo/initializer_config/**</exclude>
                   </excludes>
                 </resource>
               </resources>
