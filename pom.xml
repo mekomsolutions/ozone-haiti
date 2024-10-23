@@ -89,6 +89,7 @@
                     <exclude>distro/configs/**/ocl/openmrs_BasicLabTests*</exclude>
                     <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/*</exclude>
+                    <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
                   </excludes>
                 </resource>
               </resources>
