@@ -4,7 +4,7 @@
     "version": "1",
     "published": true,
     "retired": false,
-    "encounter": "examen des systemes",
+    "encounter": "Examen des systèmes",
     "processor": "EncounterFormProcessor",
     "uuid": "xxxx",
     "referencedForms": [],
