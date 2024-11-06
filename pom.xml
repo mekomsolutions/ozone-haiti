@@ -20,6 +20,7 @@
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
     <openmrsERPVersion>2.1.0-SNAPSHOT</openmrsERPVersion>
+    <orderExpansionVersion>1.0.0-SNAPSHOT</orderExpansionVersion>
   </properties>
 
   <dependencies>
@@ -43,7 +44,7 @@
     <dependency>
       <groupId>org.openmrs.module</groupId>
       <artifactId>orderexpansion-omod</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>${orderExpansionVersion}</version>
     </dependency>
     <!-- TODO: Add any implementation-specific dependencies -->
   </dependencies>
