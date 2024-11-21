@@ -129,26 +129,6 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.codehaus.gmavenplus</groupId>
-        <artifactId>gmavenplus-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>Rebuild OpenMRS Frontend if necessary</id>
-            <goals>
-              <goal>execute</goal>
-            </goals>
-            <!-- Disable this inherited execution -->
-            <phase>none</phase>
-            <configuration>
-              <scripts>
-                <script>
-                  file://${project.build.directory}/openmrs/frontend_assembly/build-openmrs-frontend.groovy</script>
-              </scripts>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
       <!-- Compile a dependency report -->
        <plugin>
         <groupId>net.mekomsolutions.maven.plugin</groupId>
