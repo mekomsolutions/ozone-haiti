@@ -5,4 +5,3 @@ ef83e09d-8885-4f12-be6b-06a80aa62972,,Product,An order for a product,org.openmrs
 f8ae333e-9d1a-423e-a6a8-c3a0687ebcf2,,Lab Order,An order for laboratory tests,org.openmrs.Order,,LabTest;LabSet
 52a447d3-a64a-11e3-9aeb-50e549534c5e,,Test Order,Order type for test orders,org.openmrs.TestOrder,,Test
 7af35686-b7a6-45f0-818d-529ff37b0514,,Misc Order,Order type for test orders,org.openmrs.Order,,Misc
-14a1032d-7b7e-4067-a3f1-576cb4f4422e,,Medical Supply Order,Order type for medical supplies,org.openmrs.module.orderexpansion.api.model.MedicalSupplyOrder,,Material
