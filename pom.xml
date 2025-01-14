@@ -227,6 +227,19 @@
       <name>OpenMRS Nexus Repository</name>
       <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
     </repository>
+    <repository>
+      <id>mks-nexus-private-releases</id>
+      <name>Mekom Solutions Nexus repo</name>
+      <url>https://nexus.mekomsolutions.net/repository/maven-private-releases/</url>
+    </repository>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>mks-nexus-private-snapshots</id>
+      <name>Mekom Solutions Nexus repo for snapshots</name>
+      <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
