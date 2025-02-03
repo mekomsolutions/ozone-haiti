@@ -80,5 +80,14 @@
       }
     },
     "disableChangingVisitLocation": true
+  },
+  "@openmrs/esm-ward-app": {
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": [
+          "order-basket-action-menu"
+        ]
+      }
+    }
   }
 }
