@@ -57,7 +57,7 @@
     ],
     "processor": "EncounterFormProcessor",
     "encounter": "Transfer Request",
-    "encounterType": "ccfbdaaf-c0fb-45ec-b4fc-958fef5c5965",
+    "encounterType": "b2c4d5e6-7f8a-4e9b-8c1d-2e3f8e4a3b8f",
     "referencedForms": [],
     "uuid": "445d42c5-6886-4457-8d50-d84d41b34508",
     "description": "Create an admission request to an inpatient ward",
