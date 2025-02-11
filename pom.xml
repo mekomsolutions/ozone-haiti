@@ -96,10 +96,31 @@
                     <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/*</exclude>
                     <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
-                  
+
                     <!-- Exlude Ozone's Odoo Initializer configs -->
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
                   </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <!-- Include Odoo Auth Providers -->
+          <execution>
+            <id>Include Odoo Auth Providers</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.build.directory}/ozone</directory>
+                  <includes>
+                    <include>distro/configs/odoo/initializer_config/auth_providers/**</include>
+                  </includes>
                 </resource>
               </resources>
             </configuration>
