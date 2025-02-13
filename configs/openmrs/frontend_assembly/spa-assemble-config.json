@@ -1,7 +1,8 @@
 {
   "frontendModules": {
     "@mekomsolutions/esm-patient-billing-status-app": "next",
-    "@mekomsolutions/esm-patient-medical-supply-orders-app": "next"
+    "@mekomsolutions/esm-patient-medical-supply-orders-app": "next",
+    "@openmrs/esm-ward-app": "next"
   },
   "__comment": "Haiti Overrides",
   "frontendModuleExcludes": []
