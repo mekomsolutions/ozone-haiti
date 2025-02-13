@@ -120,6 +120,7 @@
                   <directory>${project.build.directory}/ozone</directory>
                   <includes>
                     <include>distro/configs/odoo/initializer_config/auth_providers/**</include>
+                    <include>distro/configs/odoo/initializer_config/initializer_config.json</include>
                   </includes>
                 </resource>
               </resources>
