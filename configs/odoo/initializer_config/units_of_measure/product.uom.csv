@@ -20,3 +20,11 @@ init.1957f9ad-2d7c-4bc3-ac8e-527849c7bd98,uom.product_uom_categ_unit,1,0.01,Bigg
 init.d8e77a4d-0224-413e-adac-0ecf66eb50ce,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Conteneur(s)
 init.ffe07e7c-0452-4e59-b326-9d2853b56417,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Unit(s)
 init.1fd95743-5a10-4c67-8626-a4fd1a4c620a,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Sachet(s)
+init.162401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Kit
+init.162400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Inhaler
+init.162399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Each
+init.162398AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Dose pack
+init.162397AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Cartridge
+init.162396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Box
+init.162395AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Bag
+init.1514AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Packets
