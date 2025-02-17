@@ -3,7 +3,14 @@
     "@mekomsolutions/esm-patient-billing-status-app": "next",
     "@mekomsolutions/esm-patient-medical-supply-orders-app": "next",
     "@openmrs/esm-ward-app": "next",
-    "@openmrs/esm-bed-management-app": "next"
+    "@openmrs/esm-bed-management-app": "next",
+    "@openmrs/esm-patient-chart-app": "next",
+    "@openmrs/esm-patient-orders-app": "next",
+    "@openmrs/esm-patient-tests-app": "next",
+    "@openmrs/esm-patient-medications-app": "next",
+    "@openmrs/esm-patient-forms-app": "next",
+    "@openmrs/esm-form-engine-app": "next",
+    "@openmrs/esm-home-app": "next"
   },
   "__comment": "Haiti Overrides",
   "frontendModuleExcludes": []
