@@ -1,11 +1,11 @@
 {
-    "name": "Ward Admission",
+    "name": "Demande d'admission",
     "pages": [
       {
-        "label": "Ward Request",
+        "label": "Demande",
         "sections": [
           {
-            "label": "Ward Details",
+            "label": "Information de service",
             "isExpanded": "true",
             "questions": [
               {
