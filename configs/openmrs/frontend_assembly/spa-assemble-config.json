@@ -1,16 +1,16 @@
 {
   "frontendModules": {
-    "@mekomsolutions/esm-patient-billing-status-app": "next",
-    "@mekomsolutions/esm-patient-medical-supply-orders-app": "next",
-    "@openmrs/esm-ward-app": "next",
-    "@openmrs/esm-bed-management-app": "next",
-    "@openmrs/esm-patient-chart-app": "next",
-    "@openmrs/esm-patient-orders-app": "next",
-    "@openmrs/esm-patient-tests-app": "next",
-    "@openmrs/esm-patient-medications-app": "next",
-    "@openmrs/esm-patient-forms-app": "next",
-    "@openmrs/esm-form-engine-app": "next",
-    "@openmrs/esm-home-app": "next"
+    "@mekomsolutions/esm-patient-billing-status-app": "1.0.1-pre.25",
+    "@mekomsolutions/esm-patient-medical-supply-orders-app": "0.1.1-pre.20",
+    "@openmrs/esm-ward-app": "8.3.1-pre.4891",
+    "@openmrs/esm-bed-management-app": "8.3.1-pre.4891",
+    "@openmrs/esm-patient-chart-app": "9.2.1-pre.6905",
+    "@openmrs/esm-patient-orders-app": "9.2.1-pre.6905",
+    "@openmrs/esm-patient-tests-app": "9.2.1-pre.6905",
+    "@openmrs/esm-patient-medications-app": "9.2.1-pre.6905",
+    "@openmrs/esm-patient-forms-app": "9.2.1-pre.6905",
+    "@openmrs/esm-form-engine-app": "9.2.1-pre.6905",
+    "@openmrs/esm-home-app": "5.6.2-pre.534"
   },
   "__comment": "Haiti Overrides",
   "frontendModuleExcludes": []
