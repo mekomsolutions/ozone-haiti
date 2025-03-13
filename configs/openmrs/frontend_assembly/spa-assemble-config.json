@@ -14,5 +14,10 @@
     "@openmrs/esm-patient-allergies-app": "9.2.1"
   },
   "__comment": "Haiti Overrides",
-  "frontendModuleExcludes": []
+  "frontendModuleExcludes": [
+    "@openmrs/esm-service-queues-app",
+    "@openmrs/esm-appointments-app",
+    "@openmrs/esm-laboratory-app",
+    "@openmrs/esm-patient-programs-app"
+  ]
 }
