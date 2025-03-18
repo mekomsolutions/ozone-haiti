@@ -29,3 +29,4 @@ a1f5c3d2-4b6e-4e8a-9f2d-1b3e8e4a2d7f,,Inpatient Note,,,A short free-text note wr
 d3b07384-8d1c-4e6b-9b8e-2f3b8e4a1c9f,,Transfer IPD,,,Indicates that a patient is being transferred into a different department within the hospital. (Transfers out of the hospital should not use this encounter type.),,,
 e22e39fd-7db2-45e7-80f1-60fa0d5a4378,,Admission IPD,,,"Indicates that the patient has been admitted for inpatient care, and is not expected to leave the hospital unless discharged.",,,
 181820aa-88c9-479b-9077-af92f5364329,,Discharge IPD,,,"Indicates that a patient's inpatient care at the hospital is ending, and they are expected to leave soon.",,,
+29c02aff-9a93-46c9-bf6f-48b552fcb1fa,,Immunizations,Immunizations encounter,,Encounter for capturing immunizations,,,
