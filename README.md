@@ -30,7 +30,7 @@
    <ul>
     <li>Depends on:
      <ul>
-      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone Alpha 12</a></li>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
      </ul>
     </li>
    </ul>
