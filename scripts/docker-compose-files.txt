@@ -6,3 +6,4 @@ docker-compose-openmrs.yml
 docker-compose-openmrs-sso.yml
 docker-compose-senaite.yml
 docker-compose-senaite-sso.yml
+docker-compose-override.yml
