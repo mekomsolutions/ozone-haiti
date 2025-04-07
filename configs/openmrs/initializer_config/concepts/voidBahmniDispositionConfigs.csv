@@ -3,7 +3,5 @@ efaf4399-601c-4479-aba2-21591a6eccae,TRUE,,Transfer Patient,Transfer Patient,Tra
 59e51158-44ec-45d1-8d8a-b5c31f2b3212,TRUE,,Admit Patient,Admit Patient,Admit Patient,Admit Patient,,,Misc,N/A,,,,
 89cd4d9f-579a-4ee5-9353-f62704688ea0,TRUE,,Discharge Patient,Discharge Patient,Discharge Patient,Discharge Patient,,,Misc,N/A,,,,
 b1d4bb65-1637-496c-8e11-05da30a2a1cb,TRUE,,Undo Discharge,Undo Discharge,Undo Discharge,Undo Discharge,,,Misc,N/A,,,,
-d664e628-2957-4b02-8a25-28a8cb10fee5,TRUE,,Disposition,Disposition,Disposition,Disposition,,,Question,Coded,Transfer Patient;Admit Patient;Discharge Patient;Undo Discharge,,,
 a6ea10ed-ede7-43e2-83e8-c6be5ca26d76,TRUE,,Disposition Note,Disposition Note,Disposition Note,Disposition Note,,,Misc,Text,,,,
-caa44025-9e30-4feb-8d2a-c58c91f36bfc,TRUE,,Disposition Set,Disposition Set,Disposition Set,Disposition Set,,,Misc,N/A,,Disposition;Disposition Note,,
 c238289b-8533-485e-8d9e-665f6f01f210,TRUE,,Adt Notes,Adt Notes,Adt Notes,Adt Notes,,,Misc,Text,,,,
