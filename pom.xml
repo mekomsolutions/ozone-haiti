@@ -19,7 +19,9 @@
     <maven.compiler.target>8</maven.compiler.target>
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
-    <openmrsERPVersion>2.2.0-SNAPSHOT</openmrsERPVersion>
+
+    <!-- Override or add modules dependencies -->
+    <openmrsERPVersion>2.1.0</openmrsERPVersion>
     <orderExpansionVersion>1.0.0</orderExpansionVersion>
     <emrapi.version>2.1.0</emrapi.version>
     <event.version>2.10.0</event.version>
@@ -107,7 +109,9 @@
                     <exclude>distro/configs/**/patientidentifiertypes/</exclude>
                     <exclude>distro/configs/**/personattributetypes/</exclude>
                     <exclude>distro/configs/**/visittypes*</exclude>
-                    <exclude>distro/configs/**/Consultation.json</exclude>                    
+                    <exclude>distro/configs/**/ozone_logo_color.svg</exclude>
+                    <exclude>distro/configs/**/ozone_logo_white.svg</exclude>
+                    <exclude>distro/configs/**/Consultation.json</exclude>
                     <exclude>distro/configs/**/Physical_examination.json</exclude>
                     <exclude>distro/configs/**/encountertypes_core-demo.csv</exclude>
                     <exclude>distro/configs/**/misc-core_data.csv/</exclude>
