@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.ozonehis</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.0-alpha.13</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <groupId>com.ozonehis</groupId>
@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
-    <ozone.version>1.0.0-alpha.13</ozone.version>
+    <ozone.version>1.0.0-SNAPSHOT</ozone.version>
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
 
@@ -147,6 +147,29 @@
                     <include>distro/configs/odoo/initializer_config/auth_providers/**</include>
                     <include>distro/configs/odoo/initializer_config/initializer_config.json</include>
                   </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy over the content-packages.txt file -->
+            <id>Copy content-packages.txt</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/scripts</directory>
+                  <includes>
+                    <include>content-packages.txt</include>
+                  </includes>
+                  <filtering>false</filtering>
                 </resource>
               </resources>
             </configuration>
