@@ -199,7 +199,6 @@
           </execution>
         </executions>
       </plugin>
-
       <!-- Compile a dependency report -->
        <plugin>
         <groupId>net.mekomsolutions.maven.plugin</groupId>
