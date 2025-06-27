@@ -27,6 +27,13 @@
     <emrapi.version>2.1.0</emrapi.version>
     <event.version>2.10.0</event.version>
     <bedmanagement.version>6.0.0</bedmanagement.version>
+
+    <!-- Odoo Addons -->
+    <odooWarehouseVersion>1.0.0</odooWarehouseVersion>
+    <priceRecalculationVersion>10.0.1.0.0</priceRecalculationVersion>
+    <bulkCancelOrdersVersion>1.0.0</bulkCancelOrdersVersion>
+    <odooSaleDeliveryStatusVersion>14.0.1.0.0</odooSaleDeliveryStatusVersion>
+    <odooSalePaymentStatusVersion>14.0.1.0.0</odooSalePaymentStatusVersion>
   </properties>
 
   <dependencies>
@@ -69,6 +76,38 @@
       <artifactId>bedmanagement-omod</artifactId>
       <version>${bedmanagement.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- Odoo Addon -->
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>odoo_warehouse</artifactId>
+      <version>${odooWarehouseVersion}</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>sotto_sale_delivery_status</artifactId>
+      <version>${odooSaleDeliveryStatusVersion}</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>sotto_sale_payment_status</artifactId>
+      <version>${odooSalePaymentStatusVersion}</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>sale_order_price_recalculation</artifactId>
+      <version>${priceRecalculationVersion}</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>bulk_cancel_orders</artifactId>
+      <version>${bulkCancelOrdersVersion}</version>
+      <type>zip</type>
     </dependency>
     <!-- TODO: Add any implementation-specific dependencies -->
   </dependencies>
@@ -172,6 +211,25 @@
                   <filtering>true</filtering>
                 </resource>
               </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>Unpack Odoo addons Haiti</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>true</excludeTransitive>
+              <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/odoo/addons/</outputDirectory>
+              <!-- copy Odoo addons only -->
+              <includeGroupIds>net.mekomsolutions.odoo</includeGroupIds>
             </configuration>
           </execution>
         </executions>
