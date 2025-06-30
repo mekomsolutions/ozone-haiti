@@ -160,6 +160,7 @@
                     <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/*</exclude>
                     <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
+                    <exclude>distro/configs/openmrs/initializer_config/ocl/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
 
                     <!-- Exlude Ozone's Odoo Initializer configs -->
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
