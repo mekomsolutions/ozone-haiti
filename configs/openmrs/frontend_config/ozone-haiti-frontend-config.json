@@ -106,15 +106,15 @@
         "answerConceptSetUuid": "ee63d1f2-095a-4d28-ba95-fbc933666070"
       },
       {
-        "id": "mothersName",
-        "type": "person attribute",
-        "uuid": "91dbc359-39ef-49f4-abbb-43497b6709f2",
-        "placeholder": "placeholder"
-      },
-      {
         "id": "mothersFirstName",
         "type": "person attribute",
         "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "mothersName",
+        "type": "person attribute",
+        "uuid": "91dbc359-39ef-49f4-abbb-43497b6709f2",
         "placeholder": "placeholder"
       },
       {
@@ -185,6 +185,7 @@
     "Translation overrides": {
       "en": {
         "addressInformationSection": "Address Information",
+        "contactInformation": "Contact Information",
         "Commune": "Commune",
         "Village": "City/Village",
         "Country": "Country",
@@ -206,6 +207,7 @@
       },
       "fr": {
         "addressInformationSection": "Adresse",
+        "contactInformation": "Informations de contact",
         "Commune": "Commune",
         "Village": "Village",
         "Country": "Pays",
