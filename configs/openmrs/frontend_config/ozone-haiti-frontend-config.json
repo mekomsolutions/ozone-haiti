@@ -68,6 +68,12 @@
     "disableChangingVisitLocation": true
   },
   "@openmrs/esm-ward-app": {
+    "Display conditions": {
+      "privileges": [
+        "Get Admission Locations",
+        "Get Beds"
+      ]
+    },
     "extensionSlots": {
       "action-menu-ward-patient-items-slot": {
         "add": [
