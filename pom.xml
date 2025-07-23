@@ -30,7 +30,7 @@
 
     <!-- Odoo Addons -->
     <odooWarehouseVersion>1.0.0</odooWarehouseVersion>
-    <priceRecalculationVersion>10.0.1.0.1</priceRecalculationVersion>
+    <priceRecalculationVersion>14.0.1.0.0</priceRecalculationVersion>
     <bulkCancelOrdersVersion>1.0.0</bulkCancelOrdersVersion>
     <odooSaleDeliveryStatusVersion>14.0.1.0.0</odooSaleDeliveryStatusVersion>
     <odooSalePaymentStatusVersion>14.0.1.0.0</odooSalePaymentStatusVersion>
