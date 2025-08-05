@@ -160,7 +160,25 @@
                     <exclude>distro/configs/**/ocl/**/openmrs_DeathCause*</exclude>
                     <exclude>distro/configs/**/queues/**/*</exclude>
                     <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
-                    <exclude>distro/configs/openmrs/initializer_config/ocl/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+
+                    <exclude>distro/configs/**/addresshierarchy/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/ampathforms/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/billableservices/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/cashpoints/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/cashpoints/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/conceptreferencerange/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/dispositions/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/globalproperties/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/globalproperties/02_ozone-distro/disable-demo-patients.xml</exclude>
+                    <exclude>distro/configs/**/globalproperties/02_ozone-distro/fhir2-paging-props.xml</exclude>
+                    <exclude>distro/configs/**/liquibase/02_ozone-distro/*</exclude>
+                    <exclude>distro/configs/**/metadatatermmappings/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/ocl/01_referenceapplication-demo/openmrs_Billing_202410302350_autoexpand*</exclude>
+                    <exclude>distro/configs/**/ocl/**/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+                    <exclude>distro/configs/**/paymentmodes/01_referenceapplication-demo/*</exclude>
+                    <exclude>distro/configs/**/privileges/00_referenceapplication/*</exclude>
+                    <exclude>distro/configs/**/privileges/01_referenceapplication-demo/privileges_stockmanagement.csv</exclude>
+                    <exclude>distro/configs/**/initializer_config/roles/01_referenceapplication-demo/roles_stockmanagement.csv</exclude>
 
                     <!-- Exlude Ozone's Odoo Initializer configs -->
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
