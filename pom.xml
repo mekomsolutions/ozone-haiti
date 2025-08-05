@@ -22,7 +22,7 @@
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
 
     <!-- Override or add modules dependencies -->
-<!--    <openmrsERPVersion>2.1.0</openmrsERPVersion>-->
+    <openmrsERPVersion>2.1.0</openmrsERPVersion>
 
     <!-- Odoo Addons -->
     <odooWarehouseVersion>1.0.0</odooWarehouseVersion>
@@ -45,11 +45,11 @@
       <type>zip</type>
       <version>${ozone.version}</version>
     </dependency>
-<!--    <dependency>-->
-<!--      <groupId>org.openmrs.module</groupId>-->
-<!--      <artifactId>erp-omod</artifactId>-->
-<!--      <version>${openmrsERPVersion}</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>erp-omod</artifactId>
+      <version>${openmrsERPVersion}</version>
+    </dependency>
 
     <!-- Odoo Addon -->
     <dependency>
