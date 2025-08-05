@@ -26,6 +26,34 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 1.1.0</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Unified order type names in Order Basket.</li>
+    <li>Upgraded esm-patient-medications-app to v9.2.3-pre.7115.</li>
+    <li>Upgraded esm-patient-billing-status-app to 1.0.1-pre.27..</li>
+    <li>Used OpenMRS module ERP 2.1.0.</li>
+    <li>Made ozone-lamp to be a child distribution of ozone-haiti.</li>
+    <li>Removed Numéro Dossier identifier from Patient registration form .</li>
+    <li>Updated Ozone version to 1.0.0-alpha.13.</li>
+    <li>Removed Physical_examination.json file.</li>
+    <li>Added missing Odoo Addons binaries.</li>
+    <li>Removed openmrs_SOAP_vSOAP_Note_autoexpand-SOAP OCL package.</li>
+    <li>Updated sale_order_price_recalculation to version 10.0.1.0.1.</li>
+    <li>Added display conditions privileges for ward app.</li>
+  </ul>
+</details>
+
+<details>
   <summary><b>Version 1.0.0</b></summary>
    <ul>
     <li>Depends on:
