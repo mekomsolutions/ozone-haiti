@@ -334,5 +334,10 @@
         ]
       }
     }
+  },
+  "@openmrs/esm-home-app": {
+    "defaultDashboardPerRole": {
+      "System Developer": "patient-lists"
+    }
   }
 }
