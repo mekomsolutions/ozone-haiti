@@ -1,0 +1,24 @@
+{
+
+    "uuid": "c28d80d8-edcd-4a79-8b36-4c791ca7447f",
+    "description": "Vitals and Biometrics",
+    "form" : "Vitals and Biometrics",
+    "form_name_translation" : "Vitals and Biometrics",
+    "language": "en",
+    "translations" :{
+        "Triage": "Triage",
+        "Pain Scale (0 - 10)": "Pain Scale (0 - 10)",
+        "Pulse (beats/min)": "Pulse (beats/min)",
+        "Temperature": "Temperature (Celsius)",
+        "Respiratory Rate (breaths/min)": "Respiratory Rate (breaths/min)",
+        "Oxygen Saturation (%)": "Oxygen Saturation (%)",
+        "Systolic Blood Pressure (mmHg)": "Systolic Blood Pressure (mmHg)",
+        "Diastolic Blood Pressure (mmHg)": "Diastolic Blood Pressure (mmHg)",
+        "Level of emergency severity assessment": "Level of emergency severity assessment",
+        "Height": "Height  (cm)",
+        "Weight": "Weight (kg)",
+        "Head Circumference": "Head Circumference (cm)",
+        "Abdominal Diameter": "Abdominal Diameter (cm)",
+        "Mid-Upper Arm Circumference": "Mid-Upper Arm Circumference (cm)"
+    }
+}
