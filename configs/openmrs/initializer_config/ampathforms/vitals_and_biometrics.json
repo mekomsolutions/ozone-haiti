@@ -70,6 +70,7 @@
               "id": "respiratoryRate",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "step": 1,
                 "concept": "8130729f-4605-49b3-b7c0-12b19cc10543",
                 "conceptMappings": [
@@ -197,6 +198,7 @@
               "questionOptions": {
                 "rendering": "number",
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
                 "conceptMappings": [
                   {
                     "relationship": "SAME-AS",
@@ -233,7 +235,8 @@
               "id": "headCircumference",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "09313648-8ba0-4480-a3a3-efe2d3b8a769"
+                "concept": "09313648-8ba0-4480-a3a3-efe2d3b8a769",
+                "min": "0"
               },
               "validators": []
             },
@@ -244,7 +247,8 @@
               "id": "abdominalDiameter",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "f95a4f13-80f0-4254-a1f2-bc06aea4c9c9"
+                "concept": "f95a4f13-80f0-4254-a1f2-bc06aea4c9c9",
+                "min": "0"
               },
               "validators": []
             },
@@ -256,6 +260,7 @@
               "questionOptions": {
                 "rendering": "number",
                 "concept": "f074942b-666b-4ca3-9f0e-1103128b3ae2",
+                "min": "0",
                 "conceptMappings": [
                   {
                     "relationship": "SAME-AS",
