@@ -290,6 +290,26 @@
                   }
                 ]
               }
+            },
+            {
+              "label": "Blood glucose",
+              "type": "obs",
+              "required": false,
+              "id": "bloodGlucose",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "disallowDecimals": false,
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "887"
+                  }
+                ]
+              },
+              "validators": []
             }
           ]
         }

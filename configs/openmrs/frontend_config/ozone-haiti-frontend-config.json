@@ -305,7 +305,9 @@
       "encounterTypeUuid": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06"
     },
     "biometrics": {
-      "bmiUnit": "kg / m²"
+      "bmiUnit": "kg / m²",
+      "heightUnit": "cm",
+      "weightUnit": "kg"
     }
   },
   "@openmrs/esm-patient-chart-app": {
