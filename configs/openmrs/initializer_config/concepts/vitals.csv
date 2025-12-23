@@ -8,4 +8,4 @@ c642aeb3-95d3-4d1b-aa5b-1273b438d14f,,CIEL:5092,Oxygen Saturation,SaO2,,Saturati
 06188def-b659-4feb-8899-d513f49b67fb,,,Blood Pressure Set,Blood Pressure,,Groupe tension artérielle,Tension artérielle,,ConvSet,N/A,,,Tension artérielle systolique; Tension artérielle diastolique,,,,,,,,,,
 3fe6460f-3d37-463e-9fb9-df42ab15aec8,,,Pain Scale,Pain Scale,,Échelle de douleur,Échelle de douleur,,Question,Numeric,,,,FALSE,,,,0,,,10,,
 773d36e9-119e-452c-91ee-4ac90245e504,,,Vital Signs,Vital Signs,,Signes Vitaux,Signes Vitaux,,ConvSet,N/A,,,Échelle de douleur;Pouls;Température;Frequence respiratoire;Saturation d'oxygène;Groupe tension artérielle;Tension artérielle diastolique;Tension artérielle systolique,,,,,,,,,,
-f52d731e-58da-4f3a-a480-77c5e9d8d2eb,,,Blood sugar level,Blood sugar level,,Blood sugar level,Blood sugar level,,Question,Numeric,,,,TRUE,mg/dl,70,126,,,,,,
+887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:887,Blood glucose,Blood glucose,Blood glucose,Glycémie,Glycémie,Glycémie,Test,Numeric,,,,FALSE,mg/dl,70,126,,,,,,
