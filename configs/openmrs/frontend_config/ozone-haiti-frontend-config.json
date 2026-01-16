@@ -49,18 +49,21 @@
       },
       {
         "id": "firstPhoneNumber",
+        "label": "Numéro de téléphone (1)",
         "type": "person attribute",
         "uuid": "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
         "placeholder": "placeholder"
       },
       {
         "id": "secondPhoneNumber",
+        "label": "Numéro de téléphone (2)",
         "type": "person attribute",
         "uuid": "1102f74e-ea2f-461e-b67f-db58bd136e5c",
         "placeholder": "placeholder"
       },
       {
         "id": "socialStatus",
+        "label": "Situation matrimoniale",
         "type": "person attribute",
         "uuid": "157d3d3c-fdc7-443d-82be-71b7b3d92940",
         "placeholder": "placeholder",
@@ -68,6 +71,7 @@
       },
       {
         "id": "occupationField",
+        "label": "Profession",
         "type": "person attribute",
         "uuid": "a797b0dc-7ab5-487b-9f01-ef5bb9b7469a",
         "placeholder": "placeholder",
@@ -75,6 +79,7 @@
       },
       {
         "id": "insuranceCompany",
+        "label": "Assurance",
         "type": "person attribute",
         "uuid": "4b27cc11-8cfc-423f-b470-0065ee587313",
         "placeholder": "placeholder",
@@ -82,24 +87,28 @@
       },
       {
         "id": "contactPersonName",
+        "label": "Nom de la personne à contacter",
         "type": "person attribute",
         "uuid": "d7a52bd1-77dd-4f71-a5d0-92848a746014",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonPhoneNumber",
+        "label": "Numéro de la personne à contacter",
         "type": "person attribute",
         "uuid": "62844ea0-8be6-4a12-9471-cbb1f060d78b",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonAddress",
+        "label": "Adresse de la personne à contacter",
         "type": "person attribute",
         "uuid": "0c6d3b0c-7b54-4848-9638-6afc046c59ec",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonRelationship",
+        "label": "Lien avec la personne à contacter",
         "type": "person attribute",
         "uuid": "b47a9c55-4d28-4549-a223-b16d54b8fbbf",
         "placeholder": "placeholder",
@@ -107,18 +116,21 @@
       },
       {
         "id": "mothersFirstName",
+        "label": "Prénoms de la mère",
         "type": "person attribute",
         "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
         "placeholder": "placeholder"
       },
       {
         "id": "mothersName",
+        "label": "Nom de la mère",
         "type": "person attribute",
         "uuid": "91dbc359-39ef-49f4-abbb-43497b6709f2",
         "placeholder": "placeholder"
       },
       {
         "id": "religionField",
+        "label": "Religion",
         "type": "person attribute",
         "uuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110",
         "placeholder": "placeholder",
@@ -126,6 +138,7 @@
       },
       {
         "id": "policyNumber",
+        "label": "Numéro de carte d’assurance",
         "type": "person attribute",
         "uuid": "ecdfe4f8-e66d-43a3-af8e-560b98b6be2a",
         "placeholder": "placeholder"
@@ -184,6 +197,20 @@
     ],
     "Translation overrides": {
       "en": {
+        "email": "Email Address",
+        "firstPhoneNumber": "First Phone Number",
+        "secondPhoneNumber": "Second Phone Number",
+        "socialStatus": "Social Status",
+        "occupationField": "Occupation",
+        "insuranceCompany": "Insurance",
+        "contactPersonName": "Contact Person's Name",
+        "contactPersonPhoneNumber": "Contact Person's Phone Number",
+        "contactPersonAddress": "Contact Person's Address",
+        "contactPersonRelationship": "Contact Person Relationship",
+        "mothersFirstName": "Mother's First Name",
+        "mothersName": "Mother's Last Name",
+        "religionField": "Religion",
+        "policyNumber": "Policy Number",
         "addressInformationSection": "Address Information",
         "contactInformation": "Contact Information",
         "Commune": "Commune",
@@ -206,6 +233,20 @@
         "genderLabelText": "Gender"
       },
       "fr": {
+        "email": "Email Address",
+        "firstPhoneNumber": "Numéro de téléphone (1)",
+        "secondPhoneNumber": "Numéro de téléphone (2)",
+        "socialStatus": "Situation matrimoniale",
+        "occupationField": "Profession",
+        "insuranceCompany": "Assurance",
+        "contactPersonName": "Nom de la personne à contacter",
+        "contactPersonPhoneNumber": "Numéro de la personne à contacter",
+        "contactPersonAddress": "Adresse de la personne à contacter",
+        "contactPersonRelationship": "Lien avec la personne à contacter",
+        "mothersFirstName": "Prénoms de la mère",
+        "mothersName": "Nom de la mère",
+        "religionField": "Religion",
+        "policyNumber": "Numéro de carte d’assurance",
         "addressInformationSection": "Adresse",
         "contactInformation": "Informations de contact",
         "Commune": "Commune",
@@ -264,7 +305,9 @@
       "encounterTypeUuid": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06"
     },
     "biometrics": {
-      "bmiUnit": "kg / m²"
+      "bmiUnit": "kg / m²",
+      "heightUnit": "cm",
+      "weightUnit": "kg"
     }
   },
   "@openmrs/esm-patient-chart-app": {
