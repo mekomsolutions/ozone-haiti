@@ -123,3 +123,7 @@
     <li>Added encounter for capturing immunizations.</li>
   </ul>
 </details>
+
+## Trilingual Support
+This distribution is configured for French (default), English, and Spanish. See Ozone docs for locale configuration.
+
