@@ -123,3 +123,7 @@
     <li>Added encounter for capturing immunizations.</li>
   </ul>
 </details>
+
+## Trilingual Support
+This distribution is being configured for French (default), English, and Spanish. Odoo initializers include fr/en/es; OpenMRS allowed locales include fr, en, es. Full interface validation is in progress.
+
