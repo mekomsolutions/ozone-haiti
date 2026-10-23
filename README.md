@@ -125,5 +125,5 @@
 </details>
 
 ## Trilingual Support
-This distribution is configured for French (default), English, and Spanish. See Ozone docs for locale configuration.
+This distribution is being configured for French (default), English, and Spanish. Odoo initializers include fr/en/es; OpenMRS allowed locales include fr, en, es. Full interface validation is in progress.
 
